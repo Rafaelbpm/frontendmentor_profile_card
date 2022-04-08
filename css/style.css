@@ -87,6 +87,8 @@ p {
 
 .socials {
   display: flex;
+  justify-content: space-between;
+  
 }
 
 /*-------------------FOOTER-------------------*/
