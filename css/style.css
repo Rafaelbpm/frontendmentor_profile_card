@@ -1,5 +1,56 @@
+/*-------------------PRIMARY-------------------*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --white: #fff;
+}
+
+body {
+  font-size: 18px;
+  background-color: var(--dark-cyan);
+}
+
+img {
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------CARD-------------------*/
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+  background-color: var(--white);
+}
+
+.socials {
+  display: flex;
+}
+
+/*-------------------FOOTER-------------------*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
