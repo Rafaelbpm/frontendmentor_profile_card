@@ -1,4 +1,5 @@
 /*-------------------PRIMARY-------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -15,13 +16,38 @@
 }
 
 body {
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   background-color: var(--dark-cyan);
 }
 
 img {
+  min-width: 100%;
 }
 
+h2{
+  color: var(--very-dark-desaturated-blue);
+  text-align: center;
+}
+
+p {
+  color: var(--dark-gray);
+  font-size: 16px;
+  text-align: center;
+}
+
+/*-------------------UTILITY CLASSES-------------------*/
+
+/* .card-h2{
+  color: var(--very-dark-desaturated-blue);
+}
+
+.card-p{
+  color: var(--dark-gray);
+  font-size: 16px;
+} */
+
+/*-------------------CONTAINER-------------------*/
 
 .container {
   height: 100vh;
@@ -38,7 +64,25 @@ img {
   justify-content: center;
   align-items: center;
   min-width: 375px;
+  /* padding: 20px; */
+  border-radius: 15px;
   background-color: var(--white);
+}
+
+.bubble-cover {
+  border-radius: 12px 12px 0 0;
+  background-size: cover;
+}
+
+.personal {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.age {
+  font-weight: 400;
+  color: var(--dark-gray);
 }
 
 .socials {
