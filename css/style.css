@@ -38,10 +38,11 @@ p {
 
 /*-------------------UTILITY CLASS-------------------*/
 
-.social-subtitle{
+.social-subtitle {
   font-size: 13px;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   margin-top: 4px;
+  margin-bottom: 20px;
 }
 
 /*-------------------CONTAINER-------------------*/
@@ -75,7 +76,11 @@ p {
 .personal {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+.city{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .age {
@@ -85,9 +90,11 @@ p {
 }
 
 .division-line{
-  background-color: blueviolet;
-  color: red;
-  height: 10px;
+  border: 1px solid var(--dark-gray);
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  width: 100%;
+  opacity: 10%;
 }
 
 .socials {
@@ -100,8 +107,10 @@ p {
 
 .attribution {
   font-size: 11px;
+  margin-top: 1em;
   text-align: center;
+  color: var(--white);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 98%);
 }
