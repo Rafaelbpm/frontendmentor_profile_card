@@ -25,7 +25,7 @@ img {
   min-width: 100%;
 }
 
-h2{
+h2 {
   color: var(--very-dark-desaturated-blue);
   text-align: center;
 }
@@ -36,16 +36,13 @@ p {
   text-align: center;
 }
 
-/*-------------------UTILITY CLASSES-------------------*/
+/*-------------------UTILITY CLASS-------------------*/
 
-/* .card-h2{
-  color: var(--very-dark-desaturated-blue);
+.social-subtitle{
+  font-size: 13px;
+  letter-spacing: .2em;
+  margin-top: 4px;
 }
-
-.card-p{
-  color: var(--dark-gray);
-  font-size: 16px;
-} */
 
 /*-------------------CONTAINER-------------------*/
 
@@ -81,14 +78,15 @@ p {
 }
 
 .age {
+  font-size: 25px;
   font-weight: 400;
   color: var(--dark-gray);
 }
 
 .socials {
   display: flex;
-  justify-content: space-between;
-  
+  min-width: 300px;
+  justify-content: space-around;
 }
 
 /*-------------------FOOTER-------------------*/
