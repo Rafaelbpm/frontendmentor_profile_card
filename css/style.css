@@ -73,6 +73,14 @@ p {
   background-size: cover;
 }
 
+.profile-picture{
+  min-width: 30%;
+  border: 5px solid var(--white);
+  border-radius: 100px;
+  position:relative ;
+  bottom: 50px;
+  }
+
 .personal {
   text-align: center;
   margin-top: 20px;
