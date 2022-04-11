@@ -49,6 +49,7 @@ p {
 .container {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -81,6 +82,12 @@ p {
   font-size: 25px;
   font-weight: 400;
   color: var(--dark-gray);
+}
+
+.division-line{
+  background-color: blueviolet;
+  color: red;
+  height: 10px;
 }
 
 .socials {
