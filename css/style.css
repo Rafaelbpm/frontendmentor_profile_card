@@ -26,20 +26,21 @@ img {
 }
 
 h2 {
+  font-size: 18px;
   color: var(--very-dark-desaturated-blue);
   text-align: center;
+  font-weight: 700;
 }
 
 p {
   color: var(--dark-gray);
-  font-size: 16px;
   text-align: center;
 }
 
 /*-------------------UTILITY CLASS-------------------*/
 
 .social-subtitle {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   margin-top: 4px;
   margin-bottom: 20px;
@@ -73,31 +74,37 @@ p {
   background-size: cover;
 }
 
-.profile-picture{
-  min-width: 30%;
+.profile-picture {
+  min-width: 35%;
   border: 5px solid var(--white);
   border-radius: 100px;
-  position:relative ;
-  bottom: 50px;
-  }
+  display: flex;
+  position: relative;
+  margin-top: -60px;
+}
 
 .personal {
   text-align: center;
   margin-top: 20px;
 }
 
-.city{
+.name{
+  font-weight: bold;
+}
+
+.city {
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .age {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--dark-gray);
 }
 
-.division-line{
+.division-line {
   border: 1px solid var(--dark-gray);
   margin-top: 1rem;
   margin-bottom: 1.3rem;
