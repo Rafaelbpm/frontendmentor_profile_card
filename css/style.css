@@ -143,8 +143,20 @@ p {
 
 /*-------------------MEDIA QUERIES-------------------*/
 
-@media screen (min-width: 420px;) {
+@media screen and (max-width: 720px) {
   body {
-    background-color: #fff;
+    background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 49vh bottom 45vh, left 49vh top 45vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 25vh bottom 45vh, left 19vh top 45vh;
   }
 }
