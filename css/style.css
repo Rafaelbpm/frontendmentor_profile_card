@@ -17,8 +17,13 @@
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
   font-size: 18px;
   background-color: var(--dark-cyan);
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vh bottom 50vh, left 50vh top 50vh;
 }
 
 img {
@@ -56,6 +61,12 @@ p {
   align-items: center;
 }
 
+/*-------------------BACKGROUND-------------------*/
+
+.bg-pattern-bottom {
+  min-width: 100px;
+}
+
 /*-------------------CARD-------------------*/
 
 .profile-card {
@@ -64,7 +75,6 @@ p {
   justify-content: center;
   align-items: center;
   min-width: 375px;
-  /* padding: 20px; */
   border-radius: 15px;
   background-color: var(--white);
 }
@@ -88,8 +98,9 @@ p {
   margin-top: 20px;
 }
 
-.name{
+.name {
   font-weight: bold;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .city {
