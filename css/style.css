@@ -23,7 +23,7 @@ body {
   background-image: url(/images/bg-pattern-top.svg),
     url(/images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 50vh bottom 50vh, left 50vh top 50vh;
+  background-position: right 100vh bottom 45vh, left 100vh top 45vh;
 }
 
 img {
@@ -139,4 +139,12 @@ p {
 }
 .attribution a {
   color: hsl(0, 0%, 98%);
+}
+
+/*-------------------MEDIA QUERIES-------------------*/
+
+@media screen (min-width: 420px;) {
+  body {
+    background-color: #fff;
+  }
 }
