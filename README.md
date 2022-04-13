@@ -31,7 +31,8 @@ I'm also having many difficulties getting a grasp of media queries and need to d
 
 Thanks for reading this :D
 
-![Let’s connect](https://linktr.ee/kodamob) 
+[Let’s connect](https://linktr.ee/kodamob) 
+
 Find my socials below.
 
 ---
