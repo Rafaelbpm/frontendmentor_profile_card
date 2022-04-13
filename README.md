@@ -31,15 +31,15 @@ I'm also having many difficulties getting a grasp of media queries and need to d
 
 Thanks for reading this :D
 
-Let’s connect! 
+![Let’s connect](https://linktr.ee/kodamob) 
 Find my socials below.
 
 ---
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Rafaelbpm/frontendmentor-nft-preview-card)
-- Live Site URL: [Netlify](https://rafa-nft-card.netlify.app/)
+- Solution URL: [Github](https://github.com/Rafaelbpm/frontendmentor_profile_card)
+- Live Site URL: [Netlify](https://rafa-profile-card.netlify.app/)
 
 ---
 
