@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-![My Final Design](./design/Final%20-%20Rafa.png)
+My final design![My Final Design](./design/Final%20-%20Rafa.png)
 
 ## Table of contents
 
@@ -25,7 +25,9 @@
 
 ## Overview
 
+Overall, this challenge was relatively easy and fun to do. I had no problems doing the card and other elements, although I did struggle a lot working with the background images. That made me realize I need to practice more "Image Positions" on CSS. 
 
+I'm also having many difficulties getting a grasp of media queries and need to double my efforts on this matter. It's not hard to understand but, for some reason, is making me confused with the min-max properties. 
 
 Thanks for reading this :D
 
