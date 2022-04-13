@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-My Final Design![My Final Design](./design/Rafael%20-%20Final%20Design.png)
+![My Final Design](./design/Final%20-%20Rafa.png)
 
 ## Table of contents
 
