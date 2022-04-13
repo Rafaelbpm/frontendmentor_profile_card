@@ -77,20 +77,11 @@ Find my socials below.
 Areas that I need to improve and practice more:
 
 - Media Queries
-- Hover States
-- Aligning items in Flexbox.
-- Centering a DIV.
 - CSS Positioning: Relative, Fixed, Absolute.
 
 ---
 
 ### Useful resources
-
-- Youtube Channel - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - CSS Tips
-
-- Youtube Channel - [Dev World](https://www.youtube.com/channel/UCrm-HTaESqxJXyxMcZFOHng) For helping with Git, Github and Branches.
-
-- Youtube Channel - [Red Stapler](https://www.youtube.com/c/RedStapler_channel) For helping with centering a DIV.
 
 - MDN - [Mdn Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries) - Media Queries
 
